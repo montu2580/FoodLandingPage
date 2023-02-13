@@ -1,0 +1,91 @@
+
+/* body{
+    background-color: red;
+} */
+
+
+/* NAVIGATION */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    /* padding-bottom: 8px; */
+}
+
+
+/* HOME SECTION  */
+#home{
+    height: 391px;
+    padding: 12px 28px;
+}
+#home::before{
+    height: 500px;
+    
+    
+}
+#home p{
+  font-size: 13px;
+    
+}
+
+/* SERVICES SECTION  */
+#services{
+flex-direction: column;
+/* **************88 */
+/* width: 600px; */
+}
+#services .box{
+padding: 14px;
+margin: 5px 0px;
+}
+#services .box img{
+font-size: 20px;
+}
+
+/* CLIENT SECTION  */
+#clients{
+    flex-wrap: wrap;
+    /* ********8pehle ye kiya fir hta diya */
+    /* overflow:hidden; */
+}
+#clients img{
+   /* width: 50px; */
+   height: 50px;
+   /* padding jruri nhi hai mene hta di */
+   /* padding: 2px 4px; */
+
+}
+
+
+/* CONTACT US SECTION  */
+
+#contact-box form{
+    width:75% ;
+}
+
+
+/* FOOTER  */
+
+/* UTILITY CLASSES */
+
+.h-primary{
+    /* font-size: 26px; */
+    margin: 30px 0px;
+
+    /* ************ */
+    /* margin: 2px; */
+
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+h2.h-secondry{
+    /* background-color: red; */
+    font-size: 20px;
+   
+}
